@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, td {
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Table 1</caption>
+        <colgroup>
+            <span></span>
+        </colgroup>
+        <thead>
+            <tr>
+                <th>
+                    Alfa
+                </th>
+                <th>
+                    Beta
+                </th>
+                <th>
+                    Gamma
+                </th>
+            </tr>            
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">
+                    1
+                </td>
+                <td>
+                    2
+                </td>
+                <td>
+                    3
+                </td>
+            </tr>
+            <tr>
+                <!-- <td>
+                    4
+                </td> -->
+                <td colspan="2">
+                    5
+                </td>
+                <!-- <td>
+                    6
+                </td> -->
+            </tr>
+            <tr>
+                <!-- <td>
+                    7
+                </td> -->
+                <td>
+                    8
+                </td>
+                <td>
+                    9
+                </td>
+            </tr>
+    
+        </tbody>
+        <tfoot>
+            <td>
+                X
+            </td>
+            <td>
+                Y
+            </td>
+            <td>
+                Z
+            </td>
+        </tfoot>
+    </table>
+</body>
+</html>
